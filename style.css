@@ -1,8 +1,9 @@
 /* --------------Global CSS---------------------- */
 body{
     width: 1600px;
-    height: 6420px;
+    height: 6450px;
     margin: 50px 0px 0px 0px;
+    font-family: sans-serif;
 }
 p{
     font-size: 18px;
@@ -89,10 +90,10 @@ header{
 /* ----------Page 04-------------- */
 .page04{
     position: relative;
-    margin-bottom: 700px;
+    margin-bottom: 650px;
 }
 .left{
-    width: 33%;
+    width: 30%;
     position: absolute;
     left: 0px;
     top: 50px;
@@ -117,7 +118,7 @@ header{
       border-radius: 45%;
 }
 .right{
-    width: 33%;
+    width: 30%;
     position: absolute;
     right: 0px;
     top: 50px;
@@ -174,6 +175,7 @@ header{
     height: 600px;
     background-color: rgba(248, 213, 217, 0.774);
     margin-bottom: 80px;
+    border-radius: 10px;
 }
 .page07-text{
     width: 60%;
@@ -186,13 +188,13 @@ header{
 }
 .page07-subscribe input{
     padding: 15px 40px;
-    border-radius: 15px 0px 0px 15px;
+    border-radius: 25px 0px 0px 25px;
     margin-right: -5px;
     border: 0;
 }
 .page07-subscribe button{
     padding: 15px 20px;
-    border-radius: 0px 15px 15px 0px;
+    border-radius: 0px 25px 25px 0px;
     color: white;
     background-color: red;
     border: 0;
@@ -209,11 +211,16 @@ footer{
 hr{
     opacity: 0.2;
 }
-
-.foot{
+.Upfoot{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.Downfoot{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
 }
 .footA{
     padding-top: 1%;
