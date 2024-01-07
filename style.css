@@ -107,6 +107,14 @@ header{
     width:364.844px;
     border-radius: 364.844px;
     border: 10px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.groupPhoto{
+      width: 90%;
+      height: 90%;
+      border-radius: 45%;
 }
 .right{
     width: 33%;
@@ -179,12 +187,15 @@ header{
 .page07-subscribe input{
     padding: 15px 40px;
     border-radius: 15px 0px 0px 15px;
+    margin-right: -5px;
+    border: 0;
 }
 .page07-subscribe button{
     padding: 15px 20px;
     border-radius: 0px 15px 15px 0px;
     color: white;
     background-color: red;
+    border: 0;
 }
 /* ----------Footer--------------- */
 footer{
