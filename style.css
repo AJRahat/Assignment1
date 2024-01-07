@@ -1,0 +1,220 @@
+/* --------------Global CSS---------------------- */
+body{
+    width: 1600px;
+    height: 6420px;
+    margin: 50px 0px 0px 0px;
+}
+p{
+    font-size: 18px;
+}
+h1{
+    font-size: 72px;
+}
+h2{
+    font-size: 30px;
+}
+span{
+    color: red;
+}
+header,main{
+    width: 1320px;
+    margin: auto;
+}
+.btn-primary{
+    padding: 16px 32px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-color:#F00;
+}
+/* -------------------Header---------------- */
+header{
+    border-radius: 24px;
+    margin: 0px auto;
+    position: relative;
+}
+.header_text{
+    position: absolute;
+    color: white;
+    text-align: center;
+    top:25%;
+    left: 28%;
+}
+/* -------------------Main----------------- */
+/* ------------Page 01------------- */
+.page01{
+    width: 802.9px;
+    margin-bottom: 80px;
+}
+.page01-text{
+    margin-left: 50%;
+    text-align: center;
+}
+.page01 img{
+    height: 500px;
+    margin-left:25% ;
+}
+/* -----------Page 02------------- */
+.page02{
+    position: relative; 
+    margin-bottom: 80px;
+}
+.page02-pic{
+    position: absolute;
+    right: 10%;
+    top: 10%;
+}
+.page02-text{
+    width: 50%;
+    position: absolute;
+    color: white;
+    top: 20%;
+    left: 10%;
+}
+/* -----------Page 03------------  */
+.page03{
+    background-image:linear-gradient(rgb(255, 183, 183),white);
+    height: 482px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+.page03-body{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+/* ----------Page 04-------------- */
+.page04{
+    position: relative;
+    margin-bottom: 700px;
+}
+.left{
+    width: 33%;
+    position: absolute;
+    left: 0px;
+    top: 50px;
+}
+.middle{
+    width: 34%;
+    position: absolute;
+    left: 33%;
+}
+.circle{
+    height: 364.844px;
+    width:364.844px;
+    border-radius: 364.844px;
+    border: 10px solid red;
+}
+.right{
+    width: 33%;
+    position: absolute;
+    right: 0px;
+    top: 50px;
+}
+/* ----------Page 05------------- */
+.page05{
+    height: 900px;
+    margin-bottom: 80px;
+}
+.page05-text{
+    text-align: center;
+    width: 50%;
+    height: 30%;
+    margin:auto;
+}
+/*--- Mixing Photo ---*/
+.page05-mixPhoto{
+    height: 70%;
+    position: relative;
+}
+.a,.b,.c,.d{
+    position: absolute;
+    bottom: 0px;
+}
+.a{
+    right: 0px;
+    top: 0px;
+}
+.b{
+    bottom: 0px;
+}
+.c{
+    left: 0px;
+}
+.d{
+    right: 20%;
+    top: 10%;
+}
+/* ----------Page 06-------------- */
+.page06{
+    margin-bottom: 80px;
+}
+.page06-text{
+    width: 60%;
+}
+.photoAlbum img{
+    margin: 5px;
+}
+.photoAlbum img:hover{
+    border:1px solid red;
+}
+/* ----------Page 07-------------- */
+.page07{
+    height: 600px;
+    background-color: rgba(248, 213, 217, 0.774);
+    margin-bottom: 80px;
+}
+.page07-text{
+    width: 60%;
+    text-align: center;
+    margin: 0px auto;
+    padding: 5%;
+}
+.page07-subscribe{
+    text-align: center;
+}
+.page07-subscribe input{
+    padding: 15px 40px;
+    border-radius: 15px 0px 0px 15px;
+}
+.page07-subscribe button{
+    padding: 15px 20px;
+    border-radius: 0px 15px 15px 0px;
+    color: white;
+    background-color: red;
+}
+/* ----------Footer--------------- */
+footer{
+    background-color: black;
+    color: white;
+}
+.subFooter{
+    width: 1320px;
+    margin: auto;
+}
+hr{
+    opacity: 0.2;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.footA{
+    padding-top: 1%;
+}
+.footB{
+    padding-right: 10%;
+    padding-top: 2%;
+}
+.footB img{
+    vertical-align: middle;
+}
+.logo{
+    width: 30%;
+    margin: auto;
+}
